@@ -52,9 +52,9 @@ public String getSearch()//To generate a query from data selected in Search tab
     String t2 = (String) selection2.getSelectedItem();
     String operator = (String) comparision.getSelectedItem();
     String literal = value.getText();
-    String orderby = (String) theOrder.getSelectedItem();
+    String orderby = (String) theOrder.getSelectedItem(); 
     
-    String tb1 = "", tb2 = "";
+    String tb1 = "", tb2 = ""; 
     
     switch(t1){
         case "ATOMIC NUMBER":
